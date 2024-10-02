@@ -1,0 +1,111 @@
+/* body{
+ display: flex;
+ justify-content: space-evenly;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5{
+    width: 220px;
+    height: 102px;
+     transform: translate(3px, 7px); 
+}
+p{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+}
+h2{
+    transform: translate(37px, -12px);
+}
+ul{
+    padding-left: 30px;
+}
+.number1,
+.number2,
+.number3,
+.number4,
+.number5{
+    padding: 0%;
+    margin: 0%;
+    background-color: bisque;
+    width: 220px;
+    height: 650px;
+    border: 1px solid black;
+}
+
+
+.img5 {
+   
+    transform: translate(0px, 1px);
+}
+.number5 p{
+    transform: translate(1px, -17px);
+    
+}
+.number5 h2{
+    transform: translate(35px, -43px);
+}
+.number5 ul{
+    transform: translate(0px , -60px);
+}
+.number5 table{
+    transform: translate(4px , -17px);
+}
+.number1 table{
+    transform: translate(4px , 0px);
+}
+.number2 table{
+    transform: translate(4px , 74px);
+}
+.number3 table{
+    transform: translate(4px , 115px);
+}
+.number4 table{
+    transform: translate(4px , 73px);
+}
+
+ */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.number1,
+.number2,
+.number3,
+.number4,
+.number5{
+    /* position: absolute; */
+    background-color: bisque;
+    width: 220px;
+    height: 650px;
+    border: 1px solid black;
+    justify-content: space-around;
+    
+}
+img{
+    width: 220px;
+    height: 102px;
+    
+}
+table{
+    border-spacing: 0px;
+ }
+ table td{
+    background-color: rgb(196, 190, 190);
+    width: 100px;
+    border: 2px solid black;
+}
+table th{
+    color: white;
+    background-color: rgb(67, 66, 66);
+    border: 2px solid black;
+}
+table{
+    position: relative;
+    right: -3px;
+}
